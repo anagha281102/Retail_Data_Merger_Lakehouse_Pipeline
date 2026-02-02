@@ -44,6 +44,3 @@ The pipeline follows the industry-standard **Medallion Architecture** to ensure 
 3.  **Catalog Setup:** Execute `setup_catalog.ipynb` first to build the database infrastructure.
 4.  **Run Pipelines:** Execute the processing notebooks in sequential order (1, 2, 3) to move data from Bronze to Gold.
 5.  **Analytics:** Open the **Databricks SQL Dashboard** or use **Databricks Genie** to interact with the final Gold layer data.
-
----
-*Note: This project serves as a comprehensive template for handling Data Engineering challenges during corporate Mergers and Acquisitions (M&A).*
